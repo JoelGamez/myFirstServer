@@ -2,7 +2,7 @@ require 'sinatra'
 
 
 get '/' do
-  '<h1>Hello World!</h1>'
+  redirect 'index.html'
 end
 
 get '/sinatra' do
